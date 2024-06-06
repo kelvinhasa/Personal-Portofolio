@@ -1,0 +1,33 @@
+/* Header.css */
+nav {
+    background-color: #ffebcd; /* Light beige background */
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    color: #2a9d8f; /* Teal color for links */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  a:hover {
+    background-color: #2a9d8f; /* Teal background on hover */
+    color: white; /* White text on hover */
+    border-radius: 12px; /* Slightly more rounded on hover */
+  }
+  

@@ -1,0 +1,18 @@
+.container {
+    background-color: white;
+    width: 200px;
+    margin: auto;
+    border: 1px solid rgb(239, 227, 4);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.container:hover .containerFooter {
+    background-color: #167ED5;
+    color: white;
+}
+
+.noMargin {
+    margin:0;
+}

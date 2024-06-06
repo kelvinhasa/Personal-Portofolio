@@ -1,0 +1,44 @@
+/* HomePage.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf5e6; /* Light beige background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff6f61; 
+    font-size: 3em;
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  
+  button:hover {
+    background-color: #fff;
+    color: #2a9d8f;
+    border: 1px solid #2a9d8f; 
+    transform: scale(1.05); 
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #2a9d8f;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
